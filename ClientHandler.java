@@ -2,7 +2,9 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-public class ClientHandler extends Thread {
+// here i am creating threading via extends technique .
+
+public class ClientHandler extends Thread { 
     private Socket socket; // Socket for communication with the client
     private Set<PrintWriter> clientWriters; // Shared set of all client output writers
     private PrintWriter out; // Writer to send data to this client

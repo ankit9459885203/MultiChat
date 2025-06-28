@@ -1,6 +1,18 @@
 import java.io.*;
 import java.net.*;
 
+
+
+/*Connects to the server (localhost:1234)
+
+Reads user input (from terminal)
+
+Sends it to the server */
+
+
+
+
+
 public class ChatClient {
     public static void main(String[] args) throws IOException {
         // Connect to the server running on localhost at port 1234
